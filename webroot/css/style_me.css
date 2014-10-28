@@ -1,0 +1,299 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+    color: #333;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements
+ */
+#wrapper {
+    margin: 0 auto;
+    width: 980px;
+    padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sitetitle {
+    position: absolute;
+    top: 6px;
+    left: 150px;
+    font-size: 50px;
+    color: #333;
+}
+
+.siteslogan {
+    position: absolute;
+    top: 65px;
+    left: 150px;
+    font-style: italic;
+    color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+    min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 22px;
+}
+
+.sitefooter {
+    color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+    /*width: 700px;*/
+    border-right: 1px solid #ccc;
+    padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.byline {
+    margin-top: 44px;
+    border-top: 1px dashed #ccc;
+    padding: 10px;
+    color: #999;
+    background-color: #f7f7f7;
+}
+
+.byline p {
+    margin-top: 0;
+}
+
+.contentImg {
+    float: right;
+    margin: 0 0 10px 40px;
+    border: 1px solid #ccc;
+}
+
+.socialmedia {
+    float: right;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/icons/sprite.png');
+    float: left;
+    margin-left: 5px;
+}
+
+.fb {
+    background-position: -1px 34px;
+}
+
+.fb:hover {
+    background-position: -1px -2px;
+}
+
+.li {
+    background-position: 33px -36px;
+}
+
+.li:hover {
+    background-position: 33px -2px;
+}
+
+.mail {
+    background-position: 66px -36px;
+}
+
+.mail:hover {
+    background-position: 66px -2px;
+}
+
+a img{
+    border: none;
+}
+
+a {
+    color: #333;
+}
+
+#comments {
+	width: 80%;
+	padding-top: 5px;
+}
+
+.comments {
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+	padding: 20px 0;
+}
+.commentName a{
+	font-weight: bold;
+	color: #3399ff;
+    text-decoration: none;
+}
+
+.commentDate {
+	color: #999;
+	font-size: 0.9em;
+	margin-left: 8px;
+}
+
+.commentContent {
+	color: #333333;
+    display: block;
+    padding: 5px 0;
+}
+
+div.comment {
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 5px;
+}
+
+.comment-form {
+	width: 95%;
+}
+
+.comment-form fieldset {
+	border: none;
+}
+
+
+.commentMenu{
+    display: block;
+    font-size: 0.9em;
+    margin-top: 15px;
+    color: #999;
+    padding: 3px;
+}
+
+.commentMenu a {
+    color: #999;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.commentId a{
+    color: #333;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 70px;
+    float: left;
+}
+
+.comment-content {
+    margin-left: 80px;
+}
+
+.comment-bottom {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.comment-icon {
+    width: 29px;
+    height: 18px;
+    background-image: url('../img/comment_link.png');
+    float: right;
+}
+
+.email-icon {
+   background-position: 0 0;
+    margin-right: 5px;
+}
+
+.web-icon {
+    background-position: -33px 0;
+}
+
+input[type=text] {
+    padding: 1px 1px 1px 5px;
+}
+
+input[type=submit], input[type=reset] {
+   background-color: #3399ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+input[type=submit].edit {
+    color: #333333;
+    background-color: #ffffff;
+    border: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#commentFormInputs {
+    display: none;
+    margin-left: 42px;
+
+}
+
+.comment-form textarea {
+    width: 70%;
+    height: 25px;
+    font-family: 'Abel', sans-serif;
+    color: #999;
+    padding: 1px 1px 1px 5px;
+    margin-left: 12px;
+}
+
+.edit-form textarea {
+    height: 100px;
+    margin-left: 0;
+    color: #333333;
+}
+
+.hide {
+    display: none;
+}
+
+.balloon {
+    background-image: url('../img/comment.png');
+    width: 32px;
+    height: 28px;
+    float: left;
+}
+
+label.headerComment {
+    margin-left: 42px;
+}
